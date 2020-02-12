@@ -1,0 +1,714 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App.js correctly 1`] = `
+Array [
+  <header>
+    <div>
+      <h1>
+        Glorious Horned Creatures
+      </h1>
+    </div>
+  </header>,
+  <div
+    id="filterSection"
+  >
+    <section
+      className="options"
+    >
+      <h2>
+        Filter:
+      </h2>
+      <select
+        className="itemFilter"
+        onChange={[Function]}
+      >
+        <option
+          defaultValue={true}
+          value=""
+        >
+          All
+        </option>
+        <option
+          value="1 Horn"
+        >
+          1 Horn
+        </option>
+        <option
+          value="2 Horns"
+        >
+          2 Horns
+        </option>
+        <option
+          value="3 Horns"
+        >
+          3 Horns
+        </option>
+      </select>
+    </section>
+  </div>,
+  <ul
+    className="items"
+  >
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          UniWhal
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          A unicorn and a narwhal nuzzling their horns
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          1
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="UniWhal"
+          className="imageSize"
+          src="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Rhino Family
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          Mother (or father) rhino with two babies
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          2
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Rhino Family"
+          className="imageSize"
+          src="https://images.unsplash.com/photo-1512636618879-bbe79107e9e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd9460ee6d1ddbb6b1ca7be86dfc4590&auto=format&fit=crop&w=1825&q=80"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Unicorn Head
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          Someone wearing a creepy unicorn head mask
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          1
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Unicorn Head"
+          className="imageSize"
+          src="https://www.dhresource.com/0x0s/f2-albu-g5-M00-1A-11-rBVaI1hsIIiALxKzAAIHjSU3VkE490.jpg/wholesale-halloween-costume-prop-unicorn.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          UniLego
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          Lego figurine dressed in a unicorn outfit
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          1
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="UniLego"
+          className="imageSize"
+          src="https://images.unsplash.com/photo-1518946222227-364f22132616?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4836a6fca62e7dce9324346bacfde085&auto=format&fit=crop&w=2534&q=80"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Basically a unicorn
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          A narwhal is basically a unicorn after all, right?
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          1
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Basically a unicorn"
+          className="imageSize"
+          src="https://i.pinimg.com/736x/b4/61/06/b46106830b841017ea59870b27ec18dc--narwhals-a-unicorn.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          #truth
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          The truth behind narwhals
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          1
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="#truth"
+          className="imageSize"
+          src="https://i.pinimg.com/originals/16/cf/2a/16cf2a0b3fd51b9bee08bb6296193b75.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Baby Rhino
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          This is actually a figurine but it looks kinda real
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          2
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Baby Rhino"
+          className="imageSize"
+          src="https://secure.img1-ag.wfcdn.com/im/17007094/resize-h800%5Ecompr-r85/3589/35892451/Baby+Rhino+Figurine.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Cera
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          Three horns but still, horns. And who doesn't like The Land Before Time?
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          3
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Cera"
+          className="imageSize"
+          src="https://vignette.wikia.nocookie.net/landbeforetime/images/c/c3/Cera_infobox.png/revision/latest?cb=20180422005003"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Narwhal costume
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          A woman wearing a blue narwhal costume
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          1
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Narwhal costume"
+          className="imageSize"
+          src="https://ae01.alicdn.com/kf/HTB18GwSQVXXXXaZaXXXq6xXFXXXh/Animal-Cosplay-Costume-Narwhal-Onesie-Mens-Womens-Cartoon-Whale-Pajamas.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Rhino costume
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          Mascots have to get their costumes somewhere
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          2
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Rhino costume"
+          className="imageSize"
+          src="https://www.shopmascot.com/image/cache/mascotnew/new196-800x800.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Believe
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          I believe in unicorns, do you?
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          1
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Believe"
+          className="imageSize"
+          src="https://www.tinselbox.com/wp-content/uploads/2018/03/I-BELIEVE-IN-UNICORNS-FREE-PRINTABLE-WATERCOLOR-7-of-1.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Markhor
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          These wild goats eat snakes, then secrete a foam that locals fight over for the antivenom properties -- how cool is that?
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          2
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Markhor"
+          className="imageSize"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg/220px-Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Baby markhor
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          Even the babies are adorable
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          2
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Baby markhor"
+          className="imageSize"
+          src="http://www.zooborns.com/.a/6a010535647bf3970b0223c84d5959200c-800wi"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Mouflon
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          Those horns though
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          2
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Mouflon"
+          className="imageSize"
+          src="https://cdn.modernfarmer.com/wp-content/uploads/2014/08/28476658_9c97f35096_o.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Addax
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          This guy is basically extinct but survives well in captivity, so they're frequently found in zoos
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          2
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Addax"
+          className="imageSize"
+          src="https://cdn.modernfarmer.com/wp-content/uploads/2014/08/addax.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Baby mouflon
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          The cuteness that is a baby mouflon asleep
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          2
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Baby mouflon"
+          className="imageSize"
+          src="https://cbsnews3.cbsistatic.com/hub/i/r/2013/03/05/5b414225-a645-11e2-a3f0-029118418759/thumbnail/620x350/2d4cf24685b45c22912e64d2004fec8d/Baby_Mouflon_Wild_Sheep.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Happy Jackson's Chameleon
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          These are really common in Hawaii
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          2
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Happy Jackson's Chameleon"
+          className="imageSize"
+          src="https://cdn.modernfarmer.com/wp-content/uploads/2014/08/chameleon.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Serious Jackson's Chameleon
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          This one is very serious.
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          3
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Serious Jackson's Chameleon"
+          className="imageSize"
+          src="https://imgc.allpostersimages.com/img/print/posters/dlillc-jackson-s-chameleon_a-G-13448768-14258384.jpg"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Horned Lizard
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          Fave food: ants
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          100
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Horned Lizard"
+          className="imageSize"
+          src="https://www.nps.gov/band/learn/nature/images/short-horned-lizard-open-mouth-18.jpg?maxwidth=650&autorotate=false"
+        />
+      </div>
+    </li>
+    <br />
+    <li
+      className="item"
+    >
+      <div
+        className="itemContainer"
+      >
+        <h2>
+          Smaug
+        </h2>
+        <p
+          className="itemDescription"
+        >
+          Fan illustration of Smaug from 'The Hobbit'
+        </p>
+        <p
+          className="horns"
+        >
+          Has 
+          100
+           horn(s)
+        </p>
+      </div>
+      <div
+        className="imageContainer"
+      >
+        <img
+          alt="Smaug"
+          className="imageSize"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Smaug_par_David_Demaret.jpg/290px-Smaug_par_David_Demaret.jpg"
+        />
+      </div>
+    </li>
+    <br />
+  </ul>,
+]
+`;

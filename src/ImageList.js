@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import ImageItem from './ImageItem.js';
+import images from './data/data.js';
 
 export default class ImageList extends Component {
     state = { selected: null };
 
     render() {
-        const items = this.props.items;
+        const items = images;
         const elements = items.filter(item => {
             if (!this.state.selected) return true;
-            return item.horns === this.state.selected;  
+            return item.horns === Number(this.state.selected);  
         })
             .map(item => {
-            return (<ImageItem item={item}/>)
+            return (<ImageItem key={item.title} item={item}/>)
         })
 
         const handleChange = e => {
@@ -27,9 +28,9 @@ export default class ImageList extends Component {
                         <option value='' defaultValue>
                             All
                         </option>
-                        <option value='1 Horn'>1 Horn</option>
-                        <option value='2 Horns'>2 Horns</option>
-                        <option value='3 Horns'>3 Horns</option>
+                        <option value='1'>1 Horn</option>
+                        <option value='2'>2 Horns</option>
+                        <option value='3'>3 Horns</option>
                     </select>
             </section>
             </div>
