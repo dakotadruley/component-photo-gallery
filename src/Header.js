@@ -5,9 +5,11 @@ export default class Header extends Component {
         return (
         <header>
             <div>
-                <h1>Glorious Creatures</h1>
+                <h1>Glorious Horned Creatures</h1>
             </div>
         </header>
         )
     }
 };
+
+

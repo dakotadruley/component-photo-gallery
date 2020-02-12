@@ -5,16 +5,19 @@ export default class ImageItem extends Component {
         const item = this.props.item;
 
         return (
+            <>
             <li className='item'>
                 <div className='itemContainer'>
                     <h2>{item.title}</h2>
                     <p className='itemDescription'>{item.description}</p>
+                    <p className='horns'>Has {item.horns} horn(s)</p>
                 </div>
                 <div className='imageContainer'>
-                    <img src={item.url} alt={item.title}/>
+                    <img className='imageSize'src={item.url} alt={item.title}/>
                 </div>
-                <p className='horns'>{item.horns}</p>
             </li>
+            <br></br>
+            </>
         )
 
     }
